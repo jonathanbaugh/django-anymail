@@ -13,7 +13,7 @@ from django.utils.timezone import utc
 from mock import ANY, patch
 
 from anymail.signals import AnymailTrackingEvent
-from anymail.webhooks.mandrill import MandrillTrackingWebhookView, MandrillInboundWebhookView
+from anymail.webhooks.mandrill import MandrillTrackingWebhookView
 
 from .webhook_cases import WebhookTestCase, WebhookBasicAuthTestsMixin
 
